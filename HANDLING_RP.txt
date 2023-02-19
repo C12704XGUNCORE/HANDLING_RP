@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHandlingDataMgr>
+  <HandlingData>
+    <Item type="CHandlingData">
+      <handlingName>TAILGATE</handlingName>
+      <!-- Masse du véhicule -->
+<fMass value="1960.000000" />
+<!-- Masse du véhicule -->
+<fInitialDragCoeff value="0.778000" />
+<!-- Coefficient de trainée initial -->
+<fDownforceModifier value="2.120000" />
+<!-- Modificateur de portance -->
+<fPercentSubmerged value="50.000000" />
+<!-- Pourcentage immergé -->
+<vecCentreOfMassOffset x="0.000000" y="0.000000" z="0.000000" />
+<!-- Décalage du centre de masse -->
+<vecInertiaMultiplier x="1.100000" y="1.400000" z="1.600000" />
+<!-- Multiplicateur d'inertie -->
+<fDriveBiasFront value="0.191000" />
+<!-- Biais du moteur vers l'avant -->
+<nInitialDriveGears value="7" />
+<!-- Nombre de vitesses initiales -->
+<fInitialDriveForce value="0.305000" />
+<!-- Force initiale du moteur -->
+<fDriveInertia value="1.90000" />
+<!-- Inertie du moteur -->
+<fClutchChangeRateScaleUpShift value="9.80000" />
+<!-- Vitesse de changement d'embrayage vers le haut -->
+<fClutchChangeRateScaleDownShift value="8.900000" />
+<!-- Vitesse de changement d'embrayage vers le bas -->
+<fInitialDriveMaxFlatVel value="240.000000" />
+<!-- Vitesse maximale plate initiale -->
+<fBrakeForce value="0.800000" />
+<!-- Force de freinage -->
+<fBrakeBiasFront value="0.425000" />
+<!-- Biais de freinage vers l'avant -->
+<fHandBrakeForce value="0.450000" />
+<!-- Force de frein à main -->
+<fSteeringLock value="30.200000" />
+<!-- Verrouillage de direction -->
+<fTractionCurveMax value="2.690000" />
+<!-- Courbe de traction maximale -->
+<fTractionCurveMin value="2.560000" />
+<!-- Courbe de traction minimale -->
+<fTractionCurveLateral value="22.500000" />
+<!-- Courbe de traction latérale -->
+<fTractionSpringDeltaMax value="0.150000" />
+<!-- Delta de ressort de traction maximal -->
+<fLowSpeedTractionLossMult value="0.800000" />
+<!-- Multiplicateur de perte de traction à basse vitesse -->
+<fCamberStiffnesss value="0.000000" />
+<!-- Rigidité du carrossage -->
+ <fTractionBiasFront value="0.493000" />
+<!-- Biais de traction vers l'avant -->
+<!---Bas_a_Haut-->
+<!-- La valeur de la perte de traction -->
+<fTractionLossMult value="1.000000" />
+<!-- La force de la suspension -->
+<fSuspensionForce value="2.100000" />
+<!-- Amortissement de compression de la suspension -->
+<fSuspensionCompDamp value="1.500000" />
+<!-- Amortissement de rebond de la suspension -->
+<fSuspensionReboundDamp value="2.000000" />
+<!-- La limite supérieure de la suspension -->
+<fSuspensionUpperLimit value="0.090000" />
+<!-- La limite inférieure de la suspension -->
+<fSuspensionLowerLimit value="-0.140000" />
+<!-- Le levage de la suspension -->
+<fSuspensionRaise value="0.000000" />
+<!-- La polarité avant de la suspension -->
+<fSuspensionBiasFront value="0.480000" />
+<!-- La force de la barre anti-roulis -->
+<fAntiRollBarForce value="0.000000" />
+<!-- La polarité avant de la barre anti-roulis -->
+<fAntiRollBarBiasFront value="0.600000" />
+<!-- La hauteur du centre de gravité avant -->
+<fRollCentreHeightFront value="0.516000" />
+<!-- La hauteur du centre de gravité arrière -->
+<fRollCentreHeightRear value="0.519000" />
+<!-- Le multiplicateur de dommages de collision -->
+<fCollisionDamageMult value="5.000000" />
+<!-- Le multiplicateur de dommages d'armes -->
+<fWeaponDamageMult value="0.700000" />
+<!-- Le multiplicateur de déformation des dommages -->
+<fDeformationDamageMult value="6.000000" />
+<!-- Le multiplicateur de dommages du moteur -->
+<fEngineDamageMult value="5.500000" />
+<!-- Le volume du réservoir d'essence -->
+<fPetrolTankVolume value="65.000000" />
+<!-- Le volume d'huile -->
+<fOilVolume value="5.000000" />
+<!-- La distance de décalage de siège en X -->
+<fSeatOffsetDistX value="0.000000" />
+<!-- La distance de décalage de siège en Y -->
+<fSeatOffsetDistY value="0.000000" />
+<!-- La distance de décalage de siège en Z -->
+<fSeatOffsetDistZ value="0.000000" />
+<!-- La valeur monétaire -->
+<nMonetaryValue value="260000" />
+      <strModelFlags>440010</strModelFlags>
+      <strHandlingFlags>1</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>AVERAGE</AIHandling>
+      <SubHandlingData>
+        <Item type="CCarHandlingData">
+          <fBackEndPopUpCarImpulseMult value="0.100000" />
+          <fBackEndPopUpBuildingImpulseMult value="0.030000" />
+          <fBackEndPopUpMaxDeltaSpeed value="0.600000" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
